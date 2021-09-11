@@ -4,7 +4,7 @@
 > [Fan Yang](https://scholar.google.com/citations?user=FSfSgwQAAAAJ&hl=en), 
 > [Qiang Zhai](https://github.com/cvqiang/mgl), 
 > [Xin Li](https://scholar.google.com/citations?user=TK-hRO8AAAAJ&hl=en), 
-> [Rui Huang], 
+> Rui Huang, 
 > [Hong Cheng](https://scholar.google.com/citations?user=-845MAcAAAAJ&hl=zh-CN), 
 > [Deng-Ping Fan](https://dpfan.net/).
 
