@@ -8,7 +8,7 @@
 > [Hong Cheng](https://scholar.google.com/citations?user=-845MAcAAAAJ&hl=zh-CN), 
 > [Deng-Ping Fan](https://dpfan.net/).
 
-
+![](images/framework.png)
 
 1. Configuring your environment (Prerequisites):
 
@@ -31,6 +31,10 @@
     + One-key evaluation is written in MATLAB code (revised from [link](https://github.com/DengPingFan/CODToolbox)), 
     please follow this the instructions in `main.m` and just run it to generate the evaluation results in 
     `./EvaluationTool/EvaluationResults/Result-CamObjDet/`.
+
+![](images/table.png)
+
+![](images/res.png)
     
 6. Training Configuration:
    + After you download the initial model [Google Drive link](https://drive.google.com/file/d/17WYyKg40DkAgFWOusiAKgqZOlfUFzjn5/view?usp=sharing) or Baidu Pan link, move it to './pre_trained/'.
