@@ -133,5 +133,9 @@ class UGTRNet(nn.Module):
             std3 = F.interpolate(std3, size=(h, w), mode='bilinear', align_corners=True)
             #uncertainty = F.interpolate(uncertainty, size=(h, w), mode='bilinear', align_corners=True)
 
-        return x, ((std3 - std3.min()) / (std3.max() - std3.min())), mean3#, uncertainty
+        if self.training:
+            main_loss = self.criterion(x, y) + 0.5*self.criterion(prob_x, y) + 0.1*t_loss  + 0.1*self.kl_loss(prob_x, y).sum()
+            return x, main_loss
+        else:
+            return x, ((std3 - std3.min()) / (std3.max() - std3.min())), mean3#, uncertainty
 

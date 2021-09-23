@@ -21,7 +21,7 @@ TRAIN:
   zoom_factor: 8  # zoom factor for final prediction during training, be in [1, 2, 4, 8]
   ignore_label: 0 # 255
   aux_weight: 0.4
-  train_gpu: [11, 12, 13, 14, 15]
+  train_gpu: [1, 2, 3, 4, 5]
   workers: 16  # data loader workers
   batch_size: 20 #12  # batch size for training
   batch_size_val: 36  # batch size for validation during training, memory and speed tradeoff
@@ -35,7 +35,7 @@ TRAIN:
   print_freq: 20
   save_freq: 5
   save_path: model_file
-  weight: 
+  weight:  pre_trained/resnet50_v1.pth
   resume: 
   evaluate:  True #False  # evaluate on validation set, extra gpu memory needed and small batch_size_val is recommend
 
