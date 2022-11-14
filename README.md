@@ -31,6 +31,7 @@
     + One-key evaluation is written in MATLAB code (revised from [link](https://github.com/DengPingFan/CODToolbox)), 
     please follow this the instructions in `main.m` and just run it to generate the evaluation results in 
     `./EvaluationTool/EvaluationResults/Result-CamObjDet/`.
+    + The results can be downloaded in [Baidu Pan link](https://pan.baidu.com/s/1gA-Rf9oqQK8vfXamemSxlw?pwd=2kj3)(password: 2kj3).
 
 ![](images/table.png)
 
