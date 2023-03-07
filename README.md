@@ -22,7 +22,7 @@
 
 3. Testing Configuration:
 
-    + After you download the trained models [Google Drive link](https://drive.google.com/file/d/1RFdqvzMZMzi6VdVl_8-sMgWT0Os-E9tE/view?usp=sharing) or Baidu Pan link, move it into './model_file/'.
+    + After you download the trained models [Google Drive link](https://drive.google.com/file/d/1RFdqvzMZMzi6VdVl_8-sMgWT0Os-E9tE/view?usp=sharing) or [Baidu Pan link](https://pan.baidu.com/s/16WRL_J6C7_Wq4d1spgfj5g?pwd=9f0u), move it into './model_file/'.
     + Assigning your comstomed path in 'config/cod_resnet50.yaml', like 'data_root', 'test_list'.
     + Playing 'test.py' to generate the final prediction map, the predicted camouflaged object region and cmouflaged object edge is saved into 'result' as default.
     
@@ -38,7 +38,7 @@
 ![](images/res.png)
     
 6. Training Configuration:
-   + After you download the initial model [Google Drive link](https://drive.google.com/file/d/17WYyKg40DkAgFWOusiAKgqZOlfUFzjn5/view?usp=sharing) or Baidu Pan link, move it to './pre_trained/'.
+   + After you download the initial model [Google Drive link](https://drive.google.com/file/d/17WYyKg40DkAgFWOusiAKgqZOlfUFzjn5/view?usp=sharing) or [Baidu Pan link](https://pan.baidu.com/s/1BqNRkCWxgvVd7-uGh8IN1Q?pwd=heb7), move it to './pre_trained/'.
    + Put the 'train_test_file/train.lst' to the path which is included in cod_resnet50.yaml.
    + Run train.py
 
